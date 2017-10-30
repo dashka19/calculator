@@ -1,0 +1,28 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL,"Russian");
+     srand(time(NULL));
+    int oven,telec,rak,riba,blizneci,lev,deva,vesi,skorpion,strelec,kozerog,vodolei;
+    oven = rand() % 50 +1;
+    telec = rand() % 50 + 1;
+    rak = rand() % 50 + 1;
+    riba = rand() % 50 + 1;
+    blizneci = rand() % 50 + 1;
+    lev = rand() % 45 + 1;
+    deva = rand() % 50 + 1;
+    vesi = rand() % 769 + 1;
+    skorpion = rand() % 50 + 1;
+    strelec = rand() % 99 + 1;
+    kozerog = rand() % 50 + 1;
+    vodolei = rand() % 50 + 1;
+    if (vesi > 50){ cout << "Ошибка!"; }
+    else{
+    cout << vesi<<"%" << "+" << rak<<"%"<<"= " <<telec + rak <<"%";
+    }
+    return 0;
+    }
