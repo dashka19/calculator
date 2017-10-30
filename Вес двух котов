@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   setlocale(LC_ALL, "Russian");
+    int cat1;
+    int cat2;
+    cout << "Вес первого кота: ";
+    cin >> cat1;
+    cout << "Вес второго кота: ";
+    cin >> cat2;
+    if(cat1>5){
+        cout << "Первый кот жирный!"<< endl;
+    }
+    if(cat2>5){
+        cout<< "Второй кот жирный!"<< endl;
+    }
+    return 0;
+}
