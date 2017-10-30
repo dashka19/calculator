@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL,"Russian");
+    int n; //даты праздников
+    cout<<"Выбрать одну из следующих дат:15 марта,9 мая, 8 марта"<<endl;
+    cin>>n;
+    switch(n){
+    case 15:{
+    cout<<"День Конституции";
+    break;
+    }
+    case 9 :{
+    cout<<"День Победы";
+    break;
+    }
+    case 8:{
+    cout<<"День женщин";
+    break;
+    }
+    }
+    return 0;
+}
