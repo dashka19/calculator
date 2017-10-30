@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL,"Russian");
+    int a; //Goose
+    cin >> a;
+    if(a<10){
+        cout<<"Гусь доволен"<< endl;
+
+    }else{
+        cout<<"Гусь недоволен и ушел гулять";
+    }
+    return 0;
+}
